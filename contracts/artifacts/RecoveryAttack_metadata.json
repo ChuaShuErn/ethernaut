@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract SimpleToken",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "attacker",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "target",
+				"outputs": [
+					{
+						"internalType": "contract SimpleToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RecoveryAttacker.sol": "RecoveryAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Recovery.sol": {
+			"keccak256": "0x9a9f37344b78a37820b102222a0cd3922d6eb2fca7b5f48fe240b2970b93ce50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d34dc30241ad251d30ba7b8809c1f109070cd6d109a2264e088a633b08ea996",
+				"dweb:/ipfs/QmYD39SbgBS9wSf46qPWp2FroKy5aESDkZa8RJxwYbmgSP"
+			]
+		},
+		"contracts/RecoveryAttacker.sol": {
+			"keccak256": "0xada435f8e94d647c401dfa2c45ed820ac12a72ff2bb9314a6fe67f5fd74fe188",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed297f6983f7287a17d752a314f88f638137149eaac04277892efdfd9ee8a0be",
+				"dweb:/ipfs/QmPkeHjapGtBn1uJ1gyueU1t5Ud6MZUFG9vWGKx4HLGf7b"
+			]
+		}
+	},
+	"version": 1
+}
