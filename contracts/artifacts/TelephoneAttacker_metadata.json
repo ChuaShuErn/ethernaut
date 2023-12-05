@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_telephoneEthernaut",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "telephoneEthernaut",
+				"outputs": [
+					{
+						"internalType": "contract Telephone",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TelephoneAttacker.sol": "TelephoneAttacker"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Telephone.sol": {
+			"keccak256": "0xc388bc8065194685c404d2183160daae439b55a7b393cf328a29a4e72122d163",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d23fc33502fc4d14f5587af706845a16f6cdb5b862d819bddaa255c12467f26",
+				"dweb:/ipfs/QmVXn1ka8XMdfxg77fTLK4F23Aiy658iKBPWCQj6w1n9MU"
+			]
+		},
+		"contracts/TelephoneAttacker.sol": {
+			"keccak256": "0x3dcf76524ebc75004baf26350c93289faf5e8c0263fa8f01f3935861cfcb91d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c391036dba76157c4bc418410ac99f787d33ca9e0974fe46c6a6da1f25f07cd9",
+				"dweb:/ipfs/QmXmz6PjCemjACuxCRkze9FFbDTLaLApArgTa12WgAwEGD"
+			]
+		}
+	},
+	"version": 1
+}

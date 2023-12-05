@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_king",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "sendEtherToContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/KingMaker.sol": "KingMaker"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/King.sol": {
+			"keccak256": "0x733af9f1c17a4855f071c2e939b577cc0b7f98203a47a79f3a13ec424f77b157",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://661909698876362278ea37d10d75a49dcce4323915093e4526ddf04816bed0b4",
+				"dweb:/ipfs/QmNQx7RVXjVttDXRgtLjeZfQyM9VY9qWnpdnf6BvG2buCq"
+			]
+		},
+		"contracts/KingMaker.sol": {
+			"keccak256": "0x6b87f685d55893106ecc81be7bacc338abfefeb3a550d8aa2c71563f792373e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d246f10c915257bb0ab9b542a84cdc592446f718f964e1b10a8ece8f01778c61",
+				"dweb:/ipfs/QmZvAsxgKLssY14ijyAJVfTnZSsUZsLm4FWNwZqtGvoVsg"
+			]
+		}
+	},
+	"version": 1
+}

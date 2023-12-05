@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"name": "selfDestructAndSend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ForceSender.sol": "ForceSender"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ForceSender.sol": {
+			"keccak256": "0xc48689e23d1094f3ce2fbda6fce23b3f77a62d9c358df91b9bce8c3000c0c649",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e72303eea089771326a1490be8aba4d5623d0e75f8a8ff43eb19f00ba6343cdf",
+				"dweb:/ipfs/QmVc24VgkkJXNKdYeGKWvy4H89TBdJNFCVW96HDBtZCWba"
+			]
+		}
+	},
+	"version": 1
+}

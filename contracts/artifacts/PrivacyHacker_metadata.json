@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_targetAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "data",
+						"type": "bytes32"
+					}
+				],
+				"name": "changeBytes32To16",
+				"outputs": [
+					{
+						"internalType": "bytes16",
+						"name": "result",
+						"type": "bytes16"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "slot",
+						"type": "uint256"
+					}
+				],
+				"name": "getBytes32Element",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "targetAddress",
+				"outputs": [
+					{
+						"internalType": "contract Privacy",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes16",
+						"name": "_key",
+						"type": "bytes16"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PrivacyHacker.sol": "PrivacyHacker"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Privacy.sol": {
+			"keccak256": "0x7b62aca4bcbfa4511c212575e0d0cbd31c3c484b2825b177da219f5a4a70bdca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cb004a53da8483ced48218ffd1b7da3997e004a789fae73342cd77c966a9a2b0",
+				"dweb:/ipfs/QmSF26AdqDm8QzDovzz5nS8xq3FtyHPqRGCUcsb9P9LNDs"
+			]
+		},
+		"contracts/PrivacyHacker.sol": {
+			"keccak256": "0x236fc63d9a2ffaa411e28914281ef70b04fab1e67ea35cfdb388a0fc6fd8e39c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32dbb30feabdf3af37bfb1d73582fc9adb1ef28f7849fc8ccc1498ef50cbb914",
+				"dweb:/ipfs/QmQmGS2FP7zr9UXJeXvxusR7iF5qq96x9Gq3jUs2EeASub"
+			]
+		}
+	},
+	"version": 1
+}

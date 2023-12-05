@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_ethernautCoinFlipAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "ethernautCoinFlip",
+				"outputs": [
+					{
+						"internalType": "contract CoinFlip",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCoinFlipConsecWins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "consecWins",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_guess",
+						"type": "bool"
+					}
+				],
+				"name": "hackCoinFlipGuess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoinFlipAttacker.sol": "CoinFlipAttacker"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoinFlip.sol": {
+			"keccak256": "0xb95bc60e86408dd64b7966baa45eb5ef0590ec2c19e5975041c52077a4f87bcd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://087f97fd09c887feeee644218608b55eed2ece4776a3cdf6fcc369e69819421e",
+				"dweb:/ipfs/QmZKXyRfvRUud7RoWu64WgPhnPA3UrufZsRdLJ5XDYgRr2"
+			]
+		},
+		"contracts/CoinFlipAttacker.sol": {
+			"keccak256": "0x9e78afdd97d21c737ff03899110264a147fe6f9e80a829c84a0a0cec676601d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1875664fc2bec994918338dbd9bc5ef22a6874f85881f2b8a7367756d620e35",
+				"dweb:/ipfs/QmP4CaevSubDasevG5zyA7vSe3nduLKvqZj7btg8czn6Nj"
+			]
+		}
+	},
+	"version": 1
+}

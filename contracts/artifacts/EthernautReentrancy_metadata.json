@@ -1,0 +1,171 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_reentranceEthernaut",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEtherNautBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getThisBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initialDeposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "first",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "second",
+						"type": "uint256"
+					}
+				],
+				"name": "minimumOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reentranceEthernaut",
+				"outputs": [
+					{
+						"internalType": "contract Reentrance",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EthernautReentrancy.sol": "EthernautReentrancy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EthernautReentrancy.sol": {
+			"keccak256": "0x4c59b38d6957a1e69b9bfa9edb09221cb9c0ac839689c01976989e67fc6d4352",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce0da37a240f7a49d48e3f55f256a58262e7d0ecce7c7a65202361034615381d",
+				"dweb:/ipfs/QmduSemuSXNndxa6ixARyoEHyPWaTtLWUhwYfB5mAzuFrk"
+			]
+		},
+		"contracts/Reentrance.sol": {
+			"keccak256": "0xb0a2ba9307bdb3cdd9ca74eeac5346498367668888781deb8603711d8c2f9e6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://395b1fa11d0e64e62e309427850687053fbc5ad5c9a4d293dd2d66758b49ba36",
+				"dweb:/ipfs/QmXiFSoDXLhs77vAoZ5H9N8Upuf88PRYZGkr82peDBivaU"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.0.0/contracts/math/SafeMath.sol": {
+			"keccak256": "0xaa0e11a791bc975d581a4f5b7a8d9c16a880a354c89312318ae072ae3e740409",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://982d8b344f76193834260436d74c81e5a8f9e89106bb4cd72bbaabda4f3f59c2",
+				"dweb:/ipfs/QmSrvP5TkQRhKDVCTpsV3uaKLBhkt7PjUY89vdtM9o5ybK"
+			]
+		}
+	},
+	"version": 1
+}

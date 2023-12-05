@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EthernautReentrancy.sol": "Hack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EthernautReentrancy.sol": {
+			"keccak256": "0x4fda0664bba6b541233ea2b23c89fc9bbbf22c00e501199d2b43fab42c338234",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://22d921f70fc7011f7a9daf85e999e90196a742b47ebbd7ddccae760f816e2e06",
+				"dweb:/ipfs/QmZ7bMLa1uwwMN9d22UXymbzt8bTokevstbmr93DFsjdR7"
+			]
+		}
+	},
+	"version": 1
+}

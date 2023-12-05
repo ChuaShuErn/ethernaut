@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_telephoneAttacker",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "changeTheOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "telephoneAttacker",
+				"outputs": [
+					{
+						"internalType": "contract TelephoneAttacker",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TelephoneAttackerTwo.sol": "TelephoneAttackerTwo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Telephone.sol": {
+			"keccak256": "0xc388bc8065194685c404d2183160daae439b55a7b393cf328a29a4e72122d163",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d23fc33502fc4d14f5587af706845a16f6cdb5b862d819bddaa255c12467f26",
+				"dweb:/ipfs/QmVXn1ka8XMdfxg77fTLK4F23Aiy658iKBPWCQj6w1n9MU"
+			]
+		},
+		"contracts/TelephoneAttacker.sol": {
+			"keccak256": "0x9f334e0a7376045f481f712421362676f89e653bc489ab5ace3c86ceaf0827be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1cccc86802867f921fc9fc41234988977e6a6140edb813db284af6c911cb829",
+				"dweb:/ipfs/QmXncbNH4B4fL7rZf3smPs4W6Trj8wZrPQth5TJwUSGQf5"
+			]
+		},
+		"contracts/TelephoneAttackerTwo.sol": {
+			"keccak256": "0x6a7ad02b7dd77d4112d60c97d91ab5b9786fa4479009db1dd1287156cb9c4571",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff32ab0d853d9b7b1b84f1bd49eba9579f1f5495468e5f708e3c51f0f83e1f16",
+				"dweb:/ipfs/QmQKLpmeqAZfZbydCNua8eKafHE8AUEFzXSwBgTXotqmWF"
+			]
+		}
+	},
+	"version": 1
+}

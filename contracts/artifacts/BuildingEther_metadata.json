@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "isLastFloor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BuildingEther.sol": "BuildingEther"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BuildingEther.sol": {
+			"keccak256": "0x98bba0e73871a2b0d8c14ee87523b6d71301b32255d83157eb699cec33a485f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e260eb25ea1e8cfd194c97a3778940caa23e86569053deeb58125166b9c6a3a6",
+				"dweb:/ipfs/QmSRAsp53WNpkQcG1YcvMcsyR8mfKhupqSoPFSr6ukrLjg"
+			]
+		},
+		"contracts/Elevator.sol": {
+			"keccak256": "0x5c1a2068190ea9f107cd65f3604ef52b53f685d35db711903a33df0a10c1d422",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef4816359c5fe95ba2d29e107e4d3629a7ea734c9ccf903812cf824a29eedf62",
+				"dweb:/ipfs/QmQdQrie7o78dqY5xkJXszo31a9aPE7dUYBoyi5s8R2oxg"
+			]
+		}
+	},
+	"version": 1
+}
